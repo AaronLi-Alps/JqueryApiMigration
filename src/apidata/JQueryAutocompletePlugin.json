@@ -1,0 +1,329 @@
+{"data":
+[
+    {
+        "funName": "andSelf",
+        "funComment": "Add the previous set of elements on the stack to the current set.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Traversing Miscellaneous Traversing",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/andSelf/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; use .addBack() instead, which should work identically.",
+        "version": "1.8",
+        "replaceFunc": "addBack()",
+        "Method": "andSelf"
+    },
+    {
+        "funName": "bind",
+        "funComment": "Attach a handler to an event for the elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/bind/",
+        "subNote": "Note that objects are passed to functions by reference, which further complicates this scenario.",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "bind"
+    },
+    {
+        "funName": "context",
+        "funComment": "The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document.",
+        "Tag": [
+            " Deprecated Deprecated 1.10",
+            " Internals",
+            " Properties Properties of jQuery Object Instances",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/context/",
+        "subNote": "Note: This API has been removed in jQuery 3.0.",
+        "version": "1.10",
+        "replaceFunc": "",
+        "Method": "context"
+    },
+    {
+        "funName": "deferred.isRejected",
+        "funComment": "Determine whether a Deferred object has been rejected.",
+        "Tag": [
+            " Deferred Object",
+            " Deprecated Deprecated 1.7",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/deferred.isRejected/",
+        "subNote": "Note: This API has been removed in jQuery 1.8; please use deferred.state() instead.",
+        "version": "1.7",
+        "replaceFunc": "deferred.state()",
+        "Method": "deferred.isRejected"
+    },
+    {
+        "funName": "deferred.isResolved",
+        "funComment": "Determine whether a Deferred object has been resolved.",
+        "Tag": [
+            " Deferred Object",
+            " Deprecated Deprecated 1.7",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/deferred.isResolved/",
+        "subNote": "Note: This API has been removed in jQuery 1.8; please use deferred.state() instead.",
+        "version": "1.7",
+        "replaceFunc": "deferred.state()",
+        "Method": "deferred.isResolved"
+    },
+    {
+        "funName": "deferred.pipe",
+        "funComment": "Utility method to filter and/or chain Deferreds.",
+        "Tag": [
+            " Deferred Object",
+            " Deprecated Deprecated 1.8"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/deferred.pipe/",
+        "subNote": "",
+        "version": "1.8",
+        "replaceFunc": "",
+        "Method": "deferred.pipe"
+    },
+    {
+        "funName": "delegate",
+        "funComment": "Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/delegate/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "delegate"
+    },
+    {
+        "funName": "die",
+        "funComment": "Remove event handlers previously attached using .live() from the elements.",
+        "Tag": [
+            " Deprecated Deprecated 1.7",
+            " Events Event Handler Attachment",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/die/",
+        "subNote": "Note: This API has been removed in jQuery 1.9; please use on() instead.",
+        "version": "1.7",
+        "replaceFunc": "on()",
+        "Method": "die"
+    },
+    {
+        "funName": "error",
+        "funComment": "Bind an event handler to the “error” JavaScript event.",
+        "Tag": [
+            " Events Browser Events",
+            " Deprecated Deprecated 1.8",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/error/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; please use .on( \"error\", handler ) instead of .error( handler ) and .trigger( \"error\" ) instead of .error().",
+        "version": "1.8",
+        "replaceFunc": "on( \"error\", handler )",
+        "Method": "error"
+    },
+    {
+        "funName": "jQuery.fx.interval",
+        "funComment": "The rate (in milliseconds) at which animations fire.",
+        "Tag": [
+            " Effects Custom",
+            " Deprecated Deprecated 3.0",
+            " Properties Properties of the Global jQuery Object"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.fx.interval/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "jQuery.fx.interval"
+    },
+    {
+        "funName": "jQuery.parseJSON",
+        "funComment": "Takes a well-formed JSON string and returns the resulting JavaScript value.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.parseJSON/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "jQuery.parseJSON"
+    },
+    {
+        "funName": "jQuery.sub",
+        "funComment": "Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object.",
+        "Tag": [
+            " Core",
+            " Deprecated Deprecated 1.7",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.sub/",
+        "subNote": "Note: This API has been removed in jQuery 1.9.",
+        "version": "1.7",
+        "replaceFunc": "",
+        "Method": "jQuery.sub"
+    },
+    {
+        "funName": "jQuery.support",
+        "funComment": "A collection of properties that represent the presence of different browser features or bugs. Intended for jQuery’s internal use; specific properties may be removed when they are no longer needed internally to improve page startup performance. For your own project’s feature-detection needs, we strongly recommend the use of an external library such as Modernizr instead of dependency on properties in jQuery.support.",
+        "Tag": [
+            " Deprecated Deprecated 1.9",
+            " Properties Properties of the Global jQuery Object",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.support/",
+        "subNote": "",
+        "version": "1.9",
+        "replaceFunc": "",
+        "Method": "jQuery.support"
+    },
+    {
+        "funName": "jQuery.unique",
+        "funComment": "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.unique/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "jQuery.unique"
+    },
+    {
+        "funName": "live",
+        "funComment": "Attach an event handler for all elements which match the current selector, now and in the future.",
+        "Tag": [
+            " Deprecated Deprecated 1.7",
+            " Events Event Handler Attachment",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/live/",
+        "subNote": "Note: This API has been removed in jQuery 1.9; please use on() instead.",
+        "version": "1.7",
+        "replaceFunc": "on()",
+        "Method": "live"
+    },
+    {
+        "funName": "load",
+        "funComment": "Bind an event handler to the “load” JavaScript event.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Events Document Loading",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/load-event/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; please use .on( \"load\", handler ) instead of .load( handler ) and .trigger( \"load\" ) instead of .load().",
+        "version": "1.8",
+        "replaceFunc": "on( \"load\", handler )",
+        "Method": "load"
+    },
+    {
+        "funName": "selector",
+        "funComment": "A selector representing selector passed to jQuery(), if any, when creating the original set.",
+        "Tag": [
+            " Deprecated Deprecated 1.7",
+            " Internals",
+            " Properties Properties of jQuery Object Instances",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/selector/",
+        "subNote": "Note: This API has been removed in jQuery 3.0. The property was never a reliable indicator of the selector that could be used to obtain the set of elements currently contained in the jQuery set where it was a property, since subsequent traversal methods may have changed the set. Plugins that need to use a selector string within their plugin can require it as a parameter of the method. For example, a \"foo\" plugin could be written as $.fn.foo = function( selector, options ) { /* plugin code goes here */ };, and the person using the plugin would write $( \"div.bar\" ).foo( \"div.bar\", {dog: \"bark\"} ); with the \"div.bar\" selector repeated as the first argument of .foo().",
+        "version": "1.7",
+        "replaceFunc": " to obtain the set of elements currently contained in the jQuery set where it was a property, since subsequent traversal methods may have changed the set. Plugins that need to use a selector string within their plugin can require it as a parameter of the method. For example, a \"foo\" plugin could be written as $.fn.foo = function( selector, options )",
+        "Method": "selector"
+    },
+    {
+        "funName": "size",
+        "funComment": "Return the number of elements in the jQuery object.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Miscellaneous DOM Element Methods",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/size/",
+        "subNote": "Note: This method has been removed in jQuery 3.0. Use the .length property instead.",
+        "version": "1.8",
+        "replaceFunc": "",
+        "Method": "size"
+    },
+    {
+        "funName": "toggle",
+        "funComment": "Bind two or more handlers to the matched elements, to be executed on alternate clicks.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Events Mouse Events",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/toggle-event/",
+        "subNote": "Note: This method signature was deprecated in jQuery 1.8 and removed in jQuery 1.9. jQuery also provides an animation method named .toggle() that toggles the visibility of elements. Whether the animation or the event method is fired depends on the set of arguments passed.",
+        "version": "1.8",
+        "replaceFunc": "",
+        "Method": "toggle"
+    },
+    {
+        "funName": "unbind",
+        "funComment": "Remove a previously-attached event handler from the elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/unbind/",
+        "subNote": "Note: Using a proxied function to unbind an event on an element will unbind all proxied functions on that element, as the same proxy function is used for all proxied events. To allow unbinding a specific event, use unique class names on the event (e.g. click.proxy1, click.proxy2) when attaching them.",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "unbind"
+    },
+    {
+        "funName": "undelegate",
+        "funComment": "Remove a handler from the event for all elements which match the current selector, based upon a specific set of root elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/undelegate/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "undelegate"
+    },
+    {
+        "funName": "unload",
+        "funComment": "Bind an event handler to the “unload” JavaScript event.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Events Document Loading",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/unload/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; please use .on( \"unload\", handler ) instead of .unload( handler ) and .trigger( \"unload\" ) instead of .unload().",
+        "version": "1.8",
+        "replaceFunc": "on( \"unload\", handler )",
+        "Method": "unload"
+    }
+]
+}

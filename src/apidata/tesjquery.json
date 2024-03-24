@@ -1,0 +1,337 @@
+{   "data":
+[
+    {
+        "funName": "bind",
+        "funComment": "Attach a handler to an event for the elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/bind/",
+        "subNote": "Note that objects are passed to functions by reference, which further complicates this scenario.",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "bind"
+    },
+    {
+        "funName": "delegate",
+        "funComment": "Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/delegate/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "delegate"
+    },
+    {
+        "funName": ":eq() Selector",
+        "funComment": "Select the element at index n within the matched set.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/eq-selector/",
+        "subNote": "As of jQuery 3.4, the :eq pseudo-class is deprecated. Remove it from your selectors and filter the results later using .eq().",
+        "version": "3.4",
+        "replaceFunc": "",
+        "Method": ":eq() Selector"
+    },
+    {
+        "funName": ":even Selector",
+        "funComment": "Selects even elements, zero-indexed.  See also :odd.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/even-selector/",
+        "subNote": "As of jQuery 3.4, the :even pseudo-class is deprecated. Remove it from your selectors and filter the results later using .even() (available in jQuery 3.5.0 or newer).",
+        "version": "3.4",
+        "replaceFunc": "",
+        "Method": ":even Selector"
+    },
+    {
+        "funName": ":first Selector",
+        "funComment": "Selects the first matched DOM element.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/first-selector/",
+        "subNote": "As of jQuery 3.4, the :first pseudo-class is deprecated. Remove it from your selectors and filter the results later using .first().",
+        "version": "3.4",
+        "replaceFunc": "",
+        "Method": ":first Selector"
+    },
+    {
+        "funName": ":gt() Selector",
+        "funComment": "Select all elements at an index greater than index within the matched set.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/gt-selector/",
+        "subNote": "As of jQuery 3.4, the :gt pseudo-class is deprecated. Remove it from your selectors and filter the results later using .slice(). For example, :gt(3) can be replaced with a call to .slice( 4 ) (the provided index needs to be increased by one).",
+        "version": "3.4",
+        "replaceFunc": "",
+        "Method": ":gt() Selector"
+    },
+    {
+        "funName": "jQuery.fx.interval",
+        "funComment": "The rate (in milliseconds) at which animations fire.",
+        "Tag": [
+            " Effects Custom",
+            " Deprecated Deprecated 3.0",
+            " Properties Properties of the Global jQuery Object"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.fx.interval/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "jQuery.fx.interval"
+    },
+    {
+        "funName": "jQuery.holdReady",
+        "funComment": "Holds or releases the execution of jQuery’s ready event.",
+        "Tag": [
+            " Core",
+            " Deprecated Deprecated 3.2",
+            " Events Document Loading",
+            " Properties Properties of the Global jQuery Object"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.holdReady/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.2. Instead of relying on this global switch, it's better to put explicitly wait for required code. If you need to wait both for the ready state & for a custom promise, use the following pattern:",
+        "version": "3.2",
+        "replaceFunc": "",
+        "Method": "jQuery.holdReady"
+    },
+    {
+        "funName": "jQuery.isArray",
+        "funComment": "Determine whether the argument is an array.",
+        "Tag": [
+            " Deprecated Deprecated 3.2",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isArray/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.2; please use the native Array.isArray method instead.",
+        "version": "3.2",
+        "replaceFunc": "",
+        "Method": "jQuery.isArray"
+    },
+    {
+        "funName": "jQuery.isFunction",
+        "funComment": "Determines if its argument is callable as a function.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isFunction/",
+        "subNote": "As of jQuery 3.3, jQuery.isFunction() has been deprecated. In most cases, its use can be replaced by typeof x === \"function\".",
+        "version": "3.3",
+        "replaceFunc": "",
+        "Method": "jQuery.isFunction"
+    },
+    {
+        "funName": "jQuery.isNumeric",
+        "funComment": "Determines whether its argument represents a JavaScript number.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isNumeric/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3.",
+        "version": "3.3",
+        "replaceFunc": "",
+        "Method": "jQuery.isNumeric"
+    },
+    {
+        "funName": "jQuery.isWindow",
+        "funComment": "Determine whether the argument is a window.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isWindow/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3; if you need this function, reimplement it by yourself:",
+        "version": "3.3",
+        "replaceFunc": "",
+        "Method": "jQuery.isWindow"
+    },
+    {
+        "funName": "jQuery.now",
+        "funComment": "Return a number representing the current time.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.now/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3; please use the native Date.now() method instead.",
+        "version": "3.3",
+        "replaceFunc": "",
+        "Method": "jQuery.now"
+    },
+    {
+        "funName": "jQuery.parseJSON",
+        "funComment": "Takes a well-formed JSON string and returns the resulting JavaScript value.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.parseJSON/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "jQuery.parseJSON"
+    },
+    {
+        "funName": "jQuery.proxy",
+        "funComment": "Takes a function and returns a new one that will always have a particular context.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Events Event Handler Attachment",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.proxy/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3; please use the native Function.prototype.bind method instead.",
+        "version": "3.3",
+        "replaceFunc": "",
+        "Method": "jQuery.proxy"
+    },
+    {
+        "funName": "jQuery.trim",
+        "funComment": "Remove the whitespace from the beginning and end of a string.",
+        "Tag": [
+            " Deprecated Deprecated 3.5",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.trim/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.5; please use the native String.prototype.trim method instead. Unlike jQuery.trim, String.prototype.trim does not work with types other than strings (null, undefined, Number). Make sure that your code is compatible when migrating.",
+        "version": "3.5",
+        "replaceFunc": "",
+        "Method": "jQuery.trim"
+    },
+    {
+        "funName": "jQuery.type",
+        "funComment": "Determine the internal JavaScript [[Class]] of an object.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.type/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3.",
+        "version": "3.3",
+        "replaceFunc": "",
+        "Method": "jQuery.type"
+    },
+    {
+        "funName": "jQuery.unique",
+        "funComment": "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.unique/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "jQuery.unique"
+    },
+    {
+        "funName": ":last Selector",
+        "funComment": "Selects the last matched element.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/last-selector/",
+        "subNote": "As of jQuery 3.4, the :last pseudo-class is deprecated. Remove it from your selectors and filter the results later using .last().",
+        "version": "3.4",
+        "replaceFunc": "",
+        "Method": ":last Selector"
+    },
+    {
+        "funName": ":lt() Selector",
+        "funComment": "Select all elements at an index less than index within the matched set.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/lt-selector/",
+        "subNote": "As of jQuery 3.4, the :lt pseudo-class is deprecated. Remove it from your selectors and filter the results later using .slice(). For example, :lt(3) can be replaced with a call to .slice( 0, 3 ).",
+        "version": "3.4",
+        "replaceFunc": "",
+        "Method": ":lt() Selector"
+    },
+    {
+        "funName": ":odd Selector",
+        "funComment": "Selects odd elements, zero-indexed.  See also :even.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/odd-selector/",
+        "subNote": "As of jQuery 3.4, the :odd pseudo-class is deprecated. Remove it from your selectors and filter the results later using .odd() (available in jQuery 3.5.0 or newer).",
+        "version": "3.4",
+        "replaceFunc": "",
+        "Method": ":odd Selector"
+    },
+    {
+        "funName": "unbind",
+        "funComment": "Remove a previously-attached event handler from the elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/unbind/",
+        "subNote": "Note: Using a proxied function to unbind an event on an element will unbind all proxied functions on that element, as the same proxy function is used for all proxied events. To allow unbinding a specific event, use unique class names on the event (e.g. click.proxy1, click.proxy2) when attaching them.",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "unbind"
+    },
+    {
+        "funName": "undelegate",
+        "funComment": "Remove a handler from the event for all elements which match the current selector, based upon a specific set of root elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/undelegate/",
+        "subNote": "",
+        "version": "3.0",
+        "replaceFunc": "",
+        "Method": "undelegate"
+    }
+]
+}

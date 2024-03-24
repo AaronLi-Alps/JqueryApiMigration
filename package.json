@@ -1,0 +1,24 @@
+{
+  "name": "ast-share",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testTraverse": "node src/traverse/traverseJquery.js",
+    "findPath": "node src/traverse/replaceWithNode.js"
+  },
+  "keywords": [],
+  "author": "AaronLi-Alps <yumingtarget@gmail.com> (https://github.com/fecym)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/types": "^7.10.2",
+    "babylon": "^6.18.0",
+    "escodegen": "^1.14.2",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.1.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
